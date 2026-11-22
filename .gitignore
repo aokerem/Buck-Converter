@@ -1,8 +1,10 @@
-# STM32CubeIDE generated build output
-Debug/
-Release/
-*.launch
-.settings/
-.metadata/
-review/*.elf
-review/*.txt
+# STM32CubeIDE build output
+**/Debug/
+**/Release/
+**/.settings/
+**/*.launch
+**/review/*.elf
+**/review/*.txt
+
+# Local preview image generated while reviewing the schematic
+schematic-review.png
